@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SciFigDetect | Dataset Homepage</title>
+    <meta
+      name="description"
+      content="SciFigDetect dataset homepage for GitHub Pages, including overview, highlights, benchmark, usage, and citation."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <nav class="topbar">
+          <div class="brand">Dataset Homepage</div>
+          <div class="nav-links">
+            <a href="#overview">Overview</a>
+            <a href="#highlights">Highlights</a>
+            <a href="#structure">Structure</a>
+            <a href="#benchmark">Benchmark</a>
+            <a href="#citation">Citation</a>
+          </div>
+        </nav>
+
+        <div class="hero-grid">
+          <section class="hero-copy">
+            <p class="eyebrow">DATASET RELEASE</p>
+            <h1>SciFigDetect</h1>
+            <p class="hero-text">
+              面向科学图像理解与检测任务的数据集主页。这个页面可以作为
+              SciFigDetect 的 GitHub Pages 落地页，用来集中展示数据概览、任务定义、
+              下载入口、基线结果和引用信息。
+            </p>
+
+            <div class="cta-row">
+              <a class="button primary" href="[DATASET_LINK]">Download Dataset</a>
+              <a class="button secondary" href="[PAPER_LINK]">Read Paper</a>
+            </div>
+
+            <ul class="meta-list">
+              <li><span>Modalities</span><strong>Scientific Figures / Images</strong></li>
+              <li><span>Samples</span><strong>[e.g. 12,480]</strong></li>
+              <li><span>Tasks</span><strong>Scientific Figure Detection</strong></li>
+            </ul>
+          </section>
+
+          <aside class="hero-card">
+            <div class="stat-block">
+              <span class="stat-label">Version</span>
+              <strong>v1.0</strong>
+            </div>
+            <div class="stat-block">
+              <span class="stat-label">License</span>
+              <strong>[License Name]</strong>
+            </div>
+            <div class="stat-block">
+              <span class="stat-label">Language</span>
+              <strong>[Chinese / English / Multilingual]</strong>
+            </div>
+            <div class="stat-block">
+              <span class="stat-label">Contact</span>
+              <strong>[contact@email.com]</strong>
+            </div>
+          </aside>
+        </div>
+      </header>
+
+      <main>
+        <section id="overview" class="content-section">
+          <div class="section-heading">
+            <p class="section-kicker">Overview</p>
+            <h2>数据集简介</h2>
+          </div>
+          <div class="content-card prose">
+            <p>
+              SciFigDetect 是一个面向科学图像检测任务的数据集，适合用于科学论文中的图像解析、
+              图表区域定位、图像类型识别或相关下游任务。这里建议替换为你的正式介绍，
+              例如数据采集来源、标注标准、论文场景和具体任务定义。
+            </p>
+            <p>
+              如果你的目标是做出类似 MDPE 那样的仓库主页，建议至少写清楚四件事：
+              数据是什么、规模多大、能做什么任务、如何申请或下载。
+            </p>
+          </div>
+        </section>
+
+        <section id="highlights" class="content-section">
+          <div class="section-heading">
+            <p class="section-kicker">Highlights</p>
+            <h2>关键特性</h2>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h3>Rich Coverage</h3>
+              <p>突出数据覆盖的图像类型、论文来源、学科范围或版式多样性。</p>
+            </article>
+            <article class="feature-card">
+              <h3>Benchmark Ready</h3>
+              <p>补充标注类别、检测目标、训练验证测试划分，方便研究者直接复现实验。</p>
+            </article>
+            <article class="feature-card">
+              <h3>Research Friendly</h3>
+              <p>补充数据格式、基线代码、评测脚本，以及访问权限或协议说明。</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="structure" class="content-section">
+          <div class="section-heading">
+            <p class="section-kicker">Structure</p>
+            <h2>数据结构</h2>
+          </div>
+          <div class="split-layout">
+            <div class="content-card">
+              <h3>Recommended Folder Layout</h3>
+              <pre><code>dataset/
+├── metadata/
+│   ├── train.json
+│   ├── val.json
+│   └── test.json
+├── raw/
+│   ├── text/
+│   ├── audio/
+│   └── video/
+└── docs/
+    └── annotation_guidelines.pdf</code></pre>
+            </div>
+            <div class="content-card prose">
+              <h3>Suggested Description</h3>
+              <p>这里可以写字段说明，例如图像 ID、目标框坐标、类别标签、来源论文、学科领域等。</p>
+              <p>如果数据不能直接公开下载，也可以像 MDPE 那样写清访问流程，例如提交申请表或签署协议。</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="benchmark" class="content-section">
+          <div class="section-heading">
+            <p class="section-kicker">Benchmark</p>
+            <h2>基线结果</h2>
+          </div>
+          <div class="content-card">
+            <table>
+              <thead>
+                <tr>
+                  <th>Model</th>
+                  <th>Task</th>
+                  <th>Metric</th>
+                  <th>Score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Baseline A</td>
+                  <td>Detection</td>
+                  <td>Accuracy</td>
+                  <td>00.0</td>
+                </tr>
+                <tr>
+                  <td>Baseline B</td>
+                  <td>Detection</td>
+                  <td>F1</td>
+                  <td>00.0</td>
+                </tr>
+                <tr>
+                  <td>Baseline C</td>
+                  <td>Classification</td>
+                  <td>Recall</td>
+                  <td>00.0</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="content-section">
+          <div class="section-heading">
+            <p class="section-kicker">Access</p>
+            <h2>下载与使用</h2>
+          </div>
+          <div class="split-layout">
+            <div class="content-card prose">
+              <h3>Download</h3>
+              <p>填写下载地址，例如 Hugging Face、Google Drive、阿里云盘或机构主页。</p>
+              <p>如果需要申请访问，请在这里写明步骤、所需材料和响应邮箱。</p>
+            </div>
+            <div class="content-card prose">
+              <h3>Quick Start</h3>
+              <pre><code>git clone https://github.com/Joyce-yoyo/SciFigDetect.git
+cd SciFigDetect
+
+# put dataset files under ./dataset
+# run your benchmark code here</code></pre>
+            </div>
+          </div>
+        </section>
+
+        <section id="citation" class="content-section">
+          <div class="section-heading">
+            <p class="section-kicker">Citation</p>
+            <h2>引用</h2>
+          </div>
+          <div class="content-card citation-card">
+            <pre id="bibtex"><code>@inproceedings{scifigdetect2026,
+  title={SciFigDetect: A Dataset for Scientific Figure Detection},
+  author={Author One and Author Two and Author Three},
+  booktitle={Conference or Journal},
+  year={2026}
+}</code></pre>
+            <button id="copy-button" class="button primary small" type="button">
+              Copy BibTeX
+            </button>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
