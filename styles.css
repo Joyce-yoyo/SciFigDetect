@@ -309,6 +309,39 @@ th {
   background: #fff;
 }
 
+.teaser-placeholder {
+  display: grid;
+  place-items: center;
+  min-height: 420px;
+  padding: 28px;
+  border: 1px dashed rgba(29, 26, 23, 0.22);
+  border-radius: 20px;
+  background:
+    linear-gradient(135deg, rgba(255, 250, 242, 0.96), rgba(240, 230, 214, 0.88));
+  text-align: center;
+}
+
+.teaser-placeholder-label {
+  margin: 0 0 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-dark);
+  font-size: 0.82rem;
+}
+
+.teaser-placeholder h3 {
+  margin: 0 0 10px;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+  font-size: 1.6rem;
+}
+
+.teaser-placeholder p:last-child {
+  margin: 0;
+  max-width: 28rem;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
 .contributions-grid {
   margin-top: 18px;
 }
