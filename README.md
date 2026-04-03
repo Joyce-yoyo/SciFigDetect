@@ -54,6 +54,7 @@ The repository root contains a GitHub Pages landing page:
 - `index.html`
 - `styles.css`
 - `script.js`
+- `assets/tease.jpg`
 
 ## Citation
 
