@@ -14,7 +14,13 @@ If you would like to request access before the public release, please read and s
 
 - [`docs/Data sharing License Agreement.docx`](./docs/Data%20sharing%20License%20Agreement.docx)
 
-Please contact the project authors after signing the agreement.
+### Access Process
+
+1. Download and sign the data sharing agreement.
+2. Email the signed agreement to [xiaobai.li@zju.edu.cn](mailto:xiaobai.li@zju.edu.cn).
+3. Wait for confirmation and further instructions from the project team.
+
+For access requests and questions, please contact [xiaobai.li@zju.edu.cn](mailto:xiaobai.li@zju.edu.cn).
 
 ## Highlights
 
