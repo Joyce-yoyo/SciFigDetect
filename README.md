@@ -6,6 +6,16 @@ Project page: [https://joyce-yoyo.github.io/SciFigDetect/](https://joyce-yoyo.gi
 
 ![SciFigDetect teaser](./assets/tease.jpg)
 
+## Data Access
+
+The full SciFigDetect dataset will be released after the paper is accepted.
+
+If you would like to request access before the public release, please read and sign the data sharing agreement in:
+
+- [`docs/Data sharing License Agreement.docx`](./docs/Data%20sharing%20License%20Agreement.docx)
+
+Please contact the project authors after signing the agreement.
+
 ## Highlights
 
 - 72,965 real scientific figures
