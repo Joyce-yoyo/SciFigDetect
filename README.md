@@ -93,7 +93,7 @@ Source files:
 
 | Real | Nano Banana | GPT |
 | --- | --- | --- |
-| ![](./SciFigDetectDataset/real/experiment figure/2308.14409_fig4.png) | ![](./SciFigDetectDataset/banana/experiment figure/2308.14409_fig4.png) | ![](./SciFigDetectDataset/gpt/variant_1/experimental figure/2308.14409_fig4.png) |
+| <img src="./SciFigDetectDataset/real/experiment%20figure/2308.14409_fig4.png" width="220"> | <img src="./SciFigDetectDataset/banana/experiment%20figure/2308.14409_fig4.png" width="220"> | <img src="./SciFigDetectDataset/gpt/variant_1/experimental%20figure/2308.14409_fig4.png" width="220"> |
 
 Source files:
 `real/experiment figure/2308.14409_fig4.png` · `banana/experiment figure/2308.14409_fig4.png` · `gpt/variant_1/experimental figure/2308.14409_fig4.png`
