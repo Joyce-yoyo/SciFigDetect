@@ -155,9 +155,13 @@ The repository root contains a GitHub Pages landing page:
 ## Citation
 
 ```bibtex
-@article{scifigdetect2026,
-  title={SciFigDetect: A Benchmark for AI-Generated Scientific Figure Detection},
-  author={Anonymous Author(s)},
-  year={2026}
+@misc{hu2026scifigdetectbenchmarkaigeneratedscientific,
+      title={SciFigDetect: A Benchmark for AI-Generated Scientific Figure Detection}, 
+      author={You Hu and Chenzhuo Zhao and Changfa Mo and Haotian Liu and Xiaobai Li},
+      year={2026},
+      eprint={2604.08211},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2604.08211}, 
 }
 ```
