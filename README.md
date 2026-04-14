@@ -8,7 +8,7 @@ Project page: [https://joyce-yoyo.github.io/SciFigDetect/](https://joyce-yoyo.gi
 
 ## Data Access
 
-The full SciFigDetect dataset will be released after the paper is accepted.
+The full SciFigDetect dataset will be released after the paper is accepted. The paper is currently under review, and the full dataset will be officially shared later.
 
 If you would like to request access before the public release, please read and sign the data sharing agreement in:
 
