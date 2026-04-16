@@ -6,6 +6,10 @@ Project page: [https://joyce-yoyo.github.io/SciFigDetect/](https://joyce-yoyo.gi
 
 ![SciFigDetect teaser](./assets/tease.jpg)
 
+## News
+
+> **Important:** The full SciFigDetect dataset is currently **under review and not publicly available yet**. It will be officially released after the paper is accepted.
+
 ## Data Access
 
 The full SciFigDetect dataset will be released after the paper is accepted. The paper is currently under review, and the full dataset will be officially shared later.
@@ -17,10 +21,10 @@ If you would like to request access before the public release, please read and s
 ### Access Process
 
 1. Download and sign the data sharing agreement.
-2. Email the signed agreement to [xiaobai.li@zju.edu.cn](mailto:xiaobai.li@zju.edu.cn).
+2. Email the signed agreement to [xiaobai.li@zju.edu.cn](mailto:xiaobai.li@zju.edu.cn) and [huyou@zju.edu.cn](mailto:huyou@zju.edu.cn).
 3. Wait for confirmation and further instructions from the project team.
 
-For access requests and questions, please contact [xiaobai.li@zju.edu.cn](mailto:xiaobai.li@zju.edu.cn).
+For access requests and questions, please contact [xiaobai.li@zju.edu.cn](mailto:xiaobai.li@zju.edu.cn) or [huyou@zju.edu.cn](mailto:huyou@zju.edu.cn).
 
 ## Highlights
 
