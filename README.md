@@ -62,12 +62,12 @@ This figure summarizes the total number of collected real figures by month. Toge
 
 ## Example Subset in This Repository
 
-This repository also includes a small example subset under `SciFigDetectDataset/` so users can quickly inspect the folder layout and data organization without downloading the full benchmark.
+This repository also includes a small example subset under `SciFigDetectDataset/` so users can quickly inspect the folder layout and data organization without downloading the full benchmark. To match the stated source range, the example figures are restricted to samples from papers uploaded before August 2025.
 
-- `real/`: 25 real figures
-- `banana/`: 43 Nano Banana figures
-- `gpt/variant_1/`: 42 GPT figures
-- `gpt/variant_2/`: 32 GPT figures
+- `real/`: 21 real figures
+- `banana/`: 39 Nano Banana figures
+- `gpt/variant_1/`: 38 GPT figures
+- `gpt/variant_2/`: 28 GPT figures
 - `splits_both/`: `train.json`, `val.json`, and `test.json` split files
 
 ### Folder Structure
