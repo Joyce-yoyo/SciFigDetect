@@ -34,6 +34,24 @@ For access requests and questions, please contact [xiaobai.li@zju.edu.cn](mailto
 - 3 figure categories: Illustration, Overview, Experimental Figure
 - 3 benchmark settings: zero-shot, cross-generator, degraded-image
 
+## Dataset Source
+
+All real figures in SciFigDetect are collected from figures in arXiv papers released under Creative Commons licenses. The source-paper collection window spans from **January 2022 to July 2025**.
+
+This restriction helps keep the real subset traceable and license-compliant, while also making the collection period explicit. The figures cover three major categories in the benchmark: Illustration, Overview, and Experimental Figure.
+
+### Monthly Distribution by Figure Type
+
+![Monthly distribution by figure type](./assets/distributions/monthly_distribution_by_figure_type.png)
+
+This figure shows how the collected real figures are distributed over time for each figure category. It highlights the temporal coverage of the benchmark and the relative balance across figure types during the collection period.
+
+### Monthly Total Distribution
+
+![Monthly total distribution](./assets/distributions/monthly_total_distribution.png)
+
+This figure summarizes the total number of collected real figures by month. Together with the figure-type breakdown above, it provides a clearer view of the dataset source timeline from early 2022 to mid-2025.
+
 ## Dataset Composition
 
 | Subset | Illustration | Overview | Experimental Figure | Total |
